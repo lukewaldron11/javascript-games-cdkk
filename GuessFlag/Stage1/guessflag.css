@@ -1,0 +1,27 @@
+.clsFlag {
+    width: 400;
+    height: 200;
+    }
+p{
+    font-size: xxx-large;
+    
+}
+input{
+    font-size: xxx-large;
+    background-color: black;
+    font-style: normal;
+    color: aliceblue;
+}
+img{
+    margin: 50px;
+    
+
+}
+
+body {
+    background-color: rgba(255, 252, 87, 0.842);
+}
+
+h1{
+    font-size: xx-large;
+}
