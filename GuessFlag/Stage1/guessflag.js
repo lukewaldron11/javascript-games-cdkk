@@ -104,8 +104,8 @@ function startTimer() {
 function resizeFlags() {
     let flags = document.querySelectorAll('.clsFlag');
     flags.forEach(function(flag) {
-        flag.style.width = '350px'; // Adjust the width as needed
-        flag.style.height = '250px'; // Maintain aspect ratio
+        flag.style.width = '400px'; // Adjust the width as needed
+        flag.style.height = '350px'; // Maintain aspect ratio
     });
 }
 

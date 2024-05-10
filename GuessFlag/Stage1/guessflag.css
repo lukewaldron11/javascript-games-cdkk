@@ -1,16 +1,18 @@
 .clsFlag {
     width: 400;
     height: 200;
+    text-align: center;
     }
 p{
-    font-size: xx-large;
-    
+    font-size: x-large;
+    text-align: center;
 }
 input{
     font-size: xx-large;
     background-color: black;
     font-style: normal;
     color: rgb(7, 127, 231);
+    text-align: center;
     
 }
 img{
@@ -23,15 +25,17 @@ body {
 }
 
 h1{
-    font-size: x-large;
+    font-size: xxx-large;
+    text-align: center;
 }
 
 div{
-    font-size: xx-large;
+    font-size: xxx-large;
+    text-align: center;
 }
 
 button{
-    font-size: xx-large;
+    font-size: xxx-large;
     color: rgb(255, 0, 0);
     background-color: rgb(0, 0, 0);
 }
