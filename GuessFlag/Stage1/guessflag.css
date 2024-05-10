@@ -10,18 +10,19 @@ input{
     font-size: xxx-large;
     background-color: black;
     font-style: normal;
-    color: aliceblue;
+    color: rgb(7, 127, 231);
+    
 }
 img{
-    margin: 50px;
+    margin: 35px;
     
 
 }
 
 body {
-    background-color: rgba(255, 252, 87, 0.842);
+    background-color: rgba(87, 255, 95, 0.842);
 }
 
 h1{
-    font-size: xx-large;
+    font-size: x-large;
 }
