@@ -1,28 +1,18 @@
+<!DOCTYPE html>
 <html>
 
 <head>
     <title>flagle</title>
     <link rel="stylesheet" href="guessflag.css">
+   
 </head>
 
 <body>
-    <style>
-        #idNextFlags {
-        font-size: 25px; 
-        padding: 25px 35px; 
-        color: rgb(15, 12, 207); 
-        border: none; 
-        border-radius: 5px;
-       
-        
-    }
-        
-    </style>
-    
+
 
     <h1>Guess the Flagle</h1>
     <div class="clsGame">
-        <p>Select a flag.</p>
+        <p>Select a flag. you have 30 seconds to guess as many flags as possible and then it will display your score</p>
         <img id="idFlag0" class="clsFlag" src="../flags/blank.svg" />&nbsp;&nbsp;
         <img id="idFlag1" class="clsFlag" src="../flags/blank.svg" />&nbsp;&nbsp;
         <img id="idFlag2" class="clsFlag" src="../flags/blank.svg" />
@@ -30,9 +20,11 @@
         <input type="submit" value="Next Flags" id="idNextFlags">
         <p id="idResult"></p>
         <p id="idScore"></p>
+        <div id="timer">00:00</div> <!-- Timer div -->
     </div>
     <script src="guessflag.js"></script>
-    
+    <button onclick="startTimer()">reset</button>
+
 </body>
 
 </html>

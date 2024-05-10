@@ -55,10 +55,10 @@ function guessFlag(flagNum) {
             score++;
         } else {
             elemResult.innerHTML = "Incorrect try again";
-            score = -1
+            score = 0
 
         }
-        elemScore.innerHTML = `Score = ${score}`;
+        
     }
 }
 
@@ -71,3 +71,43 @@ function shuffle(array) {
     }
     return array;
 }
+
+let timer;
+let timeLimit = 30; // Time limit in seconds
+
+function startTimer() {
+    let display = document.getElementById('timer');
+
+    timer = setInterval(function() {
+        let minutes = Math.floor(timeLimit / 60);
+        let seconds = timeLimit % 60;
+
+        // Display the timer in MM:SS format
+        display.textContent = ('0' + minutes).slice(-2) + ':' + ('0' + seconds).slice(-2);
+
+        // Decrease time limit by 1 second
+        timeLimit--;
+
+        // If the timer reaches 0, stop the timer
+        if (timeLimit < 0) {
+            clearInterval(timer);
+            display.textContent = 'Time\'s up! Your score was';
+            display.textContent = score
+            // Add your code here to handle what happens when time's up
+        }
+    }, 1000); // Update the timer every 1 second (1000 milliseconds)
+
+    resizeFlags(); // Call the function to resize flags when timer starts
+}
+
+// Function to resize flags
+function resizeFlags() {
+    let flags = document.querySelectorAll('.clsFlag');
+    flags.forEach(function(flag) {
+        flag.style.width = '300px'; // Adjust the width as needed
+        flag.style.height = '200px'; // Maintain aspect ratio
+    });
+}
+
+// Call startTimer function when the page loads
+window.onload = startTimer;
