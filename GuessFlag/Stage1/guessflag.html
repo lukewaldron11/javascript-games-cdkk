@@ -9,9 +9,10 @@
 
 <body>
 
-
+    
     <h1>Guess the Flagle</h1>
     <div class="clsGame">
+        <button type="submit" onClick="refreshPage()">Reset</button>
         <p>Select a flag. you have 30 seconds to guess as many flags as possible and then it will display your score</p>
         <img id="idFlag0" class="clsFlag" src="../flags/blank.svg" />&nbsp;&nbsp;
         <img id="idFlag1" class="clsFlag" src="../flags/blank.svg" />&nbsp;&nbsp;
@@ -23,7 +24,7 @@
         <div id="timer">00:00</div> <!-- Timer div -->
     </div>
     <script src="guessflag.js"></script>
-    <button onclick="startTimer()">reset</button>
+    
 
 </body>
 

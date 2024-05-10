@@ -3,20 +3,19 @@
     height: 200;
     }
 p{
-    font-size: xxx-large;
+    font-size: xx-large;
     
 }
 input{
-    font-size: xxx-large;
+    font-size: xx-large;
     background-color: black;
     font-style: normal;
     color: rgb(7, 127, 231);
     
 }
 img{
-    margin: 35px;
+    margin: 15px;
     
-
 }
 
 body {
@@ -25,11 +24,12 @@ body {
 
 h1{
     font-size: x-large;
-    
 }
+
 div{
-    font-size: xxx-large;
+    font-size: xx-large;
 }
+
 button{
     font-size: xx-large;
     color: rgb(255, 0, 0);
