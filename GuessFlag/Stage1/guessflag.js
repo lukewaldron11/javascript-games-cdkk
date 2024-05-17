@@ -112,7 +112,6 @@ function resizeFlags() {
 // Call startTimer function when the page loads
 window.onload = startTimer;
 
-
 function refreshPage(){
     window.location.reload();
 } 

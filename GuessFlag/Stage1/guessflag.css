@@ -1,6 +1,5 @@
 .clsFlag {
-    width: 400;
-    height: 200;
+   
     text-align: center;
     }
 p{
@@ -8,7 +7,7 @@ p{
     text-align: center;
 }
 input{
-    font-size: xx-large;
+    font-size: xxx-large;
     background-color: black;
     font-style: normal;
     color: rgb(7, 127, 231);
@@ -17,7 +16,6 @@ input{
 }
 img{
     margin: 15px;
-    
 }
 
 body {
